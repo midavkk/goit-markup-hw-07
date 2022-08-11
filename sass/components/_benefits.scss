@@ -5,14 +5,13 @@
   justify-content: center;
   margin-top: -30px;
   margin-left: -30px;
-}
-
-.benefits > .benefits-list {
-  flex-basis: calc(100% / 3 - 30px);
-  margin-left: var(--typical-margin);
-  margin-top: var(--typical-margin);
-  max-width: 370px;
-  background: var(--hero-title-color);
+  .benefits-list {
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: var(--typical-margin);
+    margin-top: var(--typical-margin);
+    max-width: 370px;
+    background: var(--hero-title-color);
+  }
 }
 
 .benefits-list:hover .benefits-item__top-text {
