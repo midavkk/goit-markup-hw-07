@@ -7,6 +7,9 @@
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
+  .about-content__text {
+    flex-basis: calc(100% / 4);
+  }
 }
 
 .about-list__card {
@@ -45,8 +48,4 @@
   color: var(--main-text-color);
   min-width: 270px;
   height: 75px;
-}
-
-.about-list > .about-content__text {
-  flex-basis: calc(100% / 4);
 }
