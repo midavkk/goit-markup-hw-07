@@ -77,10 +77,9 @@
 .team-soc__link:focus {
   background-color: #2196f3;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-soc__link:hover .team-soc-icon,
-.team-soc__link:focus .team-soc-icon {
-  fill: #ffffff;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  .team-soc__icon,
+  .team-soc__icon {
+    fill: #ffffff;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
