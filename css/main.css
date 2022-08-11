@@ -74,29 +74,6 @@ body {
   margin: -1px;
 }
 
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  display: flex;
-  align-items: center;
-  margin-right: 93px;
-}
-
-.logo__link {
-  display: flex;
-}
-
-.logo-text--blue {
-  color: var(--accent-color);
-}
-
-.logo-text--dark {
-  color: var(--main-title-color);
-}
-
 .nav {
   display: flex;
 }
@@ -187,6 +164,29 @@ body {
   justify-content: center;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  margin-right: 93px;
+}
+
+.logo__link {
+  display: flex;
+}
+
+.logo-text--blue {
+  color: var(--accent-color);
+}
+
+.logo-text--dark {
+  color: var(--main-title-color);
 }
 
 .hero {
