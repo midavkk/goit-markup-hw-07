@@ -109,6 +109,9 @@
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
+  .form-input:focus + & {
+    fill: var(--accent-color);
+  }
 }
 
 .form-area {
@@ -127,10 +130,6 @@ textarea {
 .form-text:focus {
   border: 1px solid #2196f3;
   border-radius: 4px;
-}
-
-.form-input:focus + .modal-icon {
-  fill: var(--accent-color);
 }
 
 .form-check {
