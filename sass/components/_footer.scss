@@ -42,10 +42,9 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-contacts__link:not(:last-child) {
-  margin-bottom: 9px;
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
 
 .footer-slogan {
@@ -85,12 +84,11 @@
   align-items: center;
   justify-content: center;
   fill: var(--hero-title-color);
-}
-
-.footer-list__link:hover,
-.footer-list__link:focus {
-  background-color: #2196f3;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: #2196f3;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .footer-newsletter {
