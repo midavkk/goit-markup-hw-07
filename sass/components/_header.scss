@@ -53,6 +53,13 @@
   color: var(--main-text-color);
   display: flex;
   padding: 32px 0;
+  & .link:hover,
+  & .link:focus {
+    color: var(--accent-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
 }
 
 .contacts {
@@ -63,14 +70,6 @@
 
 .contacts__item:not(:last-child) {
   margin-right: 50px;
-}
-
-.contacts__nav .link:hover,
-.contacts__nav .link:focus {
-  color: var(--accent-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: text-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link:hover,
