@@ -59,9 +59,11 @@
 }
 
 .form-title {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.15;
+  @include font(20px, 1.15);
+  // font-weight: 700;
+  // font-size: 20px;
+  // line-height: 1.15;
+  // letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 12px;
 }
@@ -78,6 +80,7 @@
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
+  letter-spacing: 0.01em;
   color: #757575;
 }
 
@@ -94,8 +97,11 @@
 }
 
 .form-group input::placeholder {
-  font-size: 12px;
-  line-height: 1.16;
+  @include font(400, 1.14, 0.01em);
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
@@ -146,10 +152,12 @@ textarea {
 }
 
 .check-text {
+  font(400);
   color: #757575;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
   display: flex;
   align-items: center;
   margin-right: 4px;
@@ -175,9 +183,11 @@ textarea {
 }
 
 .check-terms {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  @include font(400);
+  // font-weight: 400;
+  // font-size: 14px;
+  // line-height: 1.71;
+  // letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: var(--accent-color);
 }
@@ -190,6 +200,7 @@ textarea {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  letter-spacing: 0.06em;
   display: inline-block;
   padding: 10px 55px;
   margin: 0 auto;
