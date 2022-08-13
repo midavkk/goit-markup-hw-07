@@ -30,22 +30,22 @@
 }
 
 .about-content__title {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: calc(16 / 14);
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  @include font($ls: 1.14) // font-weight: 700;
+    // font-size: 14px;
+    // line-height: calc(16 / 14);
+    // letter-spacing: 0.03em;
+    text-transform: uppercase;
   color: var(--main-title-color);
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
 .about-content__text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  @include font(400) // font-weight: 400;
+    // font-size: 14px;
+    // line-height: 1.71;
+    // letter-spacing: 0.03em;
+    color: var(--main-text-color);
   min-width: 270px;
   height: 75px;
 }
