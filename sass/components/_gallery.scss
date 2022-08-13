@@ -16,13 +16,15 @@
 }
 
 .gallery-list__label {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font($lh: 1.14);
+  // font-weight: 700;
+  // font-size: 14px;
+  // line-height: 1.14;
+  // letter-spacing: 0.03em;
+  text-transform: uppercase;
   display: flex;
   justify-content: center;
   text-align: center;
-  text-transform: uppercase;
   color: #ffffff;
   position: absolute;
   bottom: 0;
