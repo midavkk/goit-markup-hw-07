@@ -33,7 +33,7 @@
   margin-right: 50px;
 }
 
-.nav.current::after {
+.nav__link.current::after {
   content: "";
   position: absolute;
   width: 100%;
