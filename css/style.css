@@ -648,11 +648,11 @@ img {
   margin-top: 20px;
 }
 
-.footer-content-item {
+.footer-content__list {
   list-style-type: none;
 }
 
-.footer-contacts-address {
+.footer-contacts__item {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -662,7 +662,7 @@ img {
   margin-bottom: 9px;
 }
 
-.footer-contacts-link {
+.footer-contacts__link {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -670,7 +670,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contacts-link:not(:last-child) {
+.footer-contacts__link:not(:last-child) {
   margin-bottom: 9px;
 }
 
