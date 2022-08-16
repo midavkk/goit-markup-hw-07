@@ -4,23 +4,28 @@
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  color: var(--accent-color);
   display: flex;
   align-items: center;
-}
-
-.logo__link {
-  display: flex;
-}
-
-.logo__text {
-  display: flex;
   margin-right: 93px;
 }
 
-.logo-text--blue {
-  color: var(--accent-color);
+.header-link {
+  display: flex;
 }
 
-.logo-text--dark {
+.logo-text {
   color: var(--main-title-color);
 }
+
+.logo-footer {
+  color: var(--hero-title-color);
+}
+
+// .logo-text--blue {
+//   color: var(--accent-color);
+// }
+
+// .logo-text--dark {
+//   color: var(--main-title-color);
+// }
