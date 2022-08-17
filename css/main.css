@@ -567,9 +567,9 @@ body {
 
 .benefits-content__title {
   font-size: 18px;
-  font-weight: 2;
-  line-height: 0.06em;
-  letter-spacing: 0.03em;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: var(--main-title-color);
   margin-bottom: 4px;
 }
