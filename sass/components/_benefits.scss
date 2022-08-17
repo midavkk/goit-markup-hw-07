@@ -66,9 +66,9 @@
 }
 
 .benefits-content__title {
-  @include font(18px, 2, 0.06em);
-  // font-weight: 700;
+  @include font(18px, 700, 2, 0.06em);
   // font-size: 18px;
+  // font-weight: 700;
   // line-height: 2;
   // letter-spacing: 0.06em;
   color: var(--main-title-color);
