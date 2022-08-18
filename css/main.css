@@ -567,9 +567,9 @@ body {
 
 .benefits-content__title {
   font-size: 18px;
-  font-weight: 700;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  font-weight: 2;
+  line-height: 0.06em;
+  letter-spacing: 0.03em;
   color: var(--main-title-color);
   margin-bottom: 4px;
 }
@@ -790,8 +790,8 @@ body {
 
 .form-title {
   font-size: 20px;
-  font-weight: 1.15;
-  line-height: 1.71;
+  font-weight: 700;
+  line-height: 1.15;
   letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 12px;
@@ -880,10 +880,10 @@ textarea {
 }
 
 .check-text {
-  font-size: 400;
-  font-weight: 700;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  font-size: 0;
+  font-weight: 400;
+  line-height: 0;
+  letter-spacing: 0;
   color: #757575;
   display: flex;
   align-items: center;
