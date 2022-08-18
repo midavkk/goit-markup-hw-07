@@ -59,7 +59,7 @@
 }
 
 .form-title {
-  @include font(20px, 1.15);
+  @include font($fs: 20px, $lh: 1.15);
   // font-weight: 700;
   // font-size: 20px;
   // line-height: 1.15;
@@ -97,7 +97,7 @@
 }
 
 .form-group input::placeholder {
-  @include font(400, 1.14, 0.01em);
+  @include font($fw: 400, $lh: 1.14, $ls: 0.01em);
   // font-weight: 400;
   // font-size: 14px;
   // line-height: 1.14;
@@ -152,7 +152,7 @@ textarea {
 }
 
 .check-text {
-  @include font(400);
+  @include font(0, 400, 0, 0);
   color: #757575;
   // font-weight: 400;
   // font-size: 14px;
